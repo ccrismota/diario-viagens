@@ -1,27 +1,36 @@
-# DiariosApp
+# Diário de viagens
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+<a href=""><img src="" title="source: imgur.com" /></a>
 
-## Development server
+Você pode acessá-lo com este [link.]()
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
+## **💻 Sobre**
 
-## Code scaffolding
+Esse projeto foi desenvolvido em equipe durante o bootcamp Soulcode Academy com objetivo de desnvolver as habilidades em Algular e Firebase.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Alguns features existentes são:
 
-## Build
+- Responsividade para todos dispositivos;
+- Armazenar imagens no firebase;
+- Página de login;
+- Página de cadastro com `step`;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Você pode acessá-lo com este [link.]()
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## **🚀 Tecnologias**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Esse projeto foi desenvolvido com as seguintes ferramentas:
 
-## Further help
+- Angular
+- Firebase
+- HTML5
+- SCSS
+- Typescript
+- Javascript
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+--- 
