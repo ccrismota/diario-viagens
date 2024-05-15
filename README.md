@@ -1,8 +1,8 @@
 # Diário de viagens
 
-<a href=""><img src="" title="source: imgur.com" /></a>
+<a href="https://imgur.com/96iIIF8"><img src="https://i.imgur.com/96iIIF8.png" title="source: imgur.com" /></a>
 
-Você pode acessá-lo com este [link.]()
+Você pode acessá-lo com este [link.](https://diarioviagens.netlify.app)
 
 ---
 ## **💻 Sobre**
@@ -17,7 +17,7 @@ Alguns features existentes são:
 - Página de cadastro com `step`;
 
 
-Você pode acessá-lo com este [link.]()
+Acesse o vídeo de demonstração com este [link.](https://streamable.com/e/yrpofg?autoplay=1&muted=1)
 
 ---
 
