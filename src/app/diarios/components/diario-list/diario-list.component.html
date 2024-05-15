@@ -4,7 +4,7 @@
       <div>
         <!--parte central-->
         <div class="d-flex justify-content-center">
-          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <div *ngIf="allDiarios$ | async as diarios; else loading">
               <mat-card *ngFor="let diario of diarios | paginate: { itemsPerPage: 3, currentPage: pagina}" class="example-card">
 
@@ -40,11 +40,6 @@
     <mat-tab label="Meus Diarios">
       <div *ngIf="meusDiarios$ | async as diarios; else loading">
         <div class="perfil">
-          <!-- <div
-            mat-card-avatar
-            class="example-header-image"
-            matTooltip="Usuario logado"
-          ></div> -->
           <div class="galery">
             <span class="texto"> <strong>Galeria</strong></span>
           </div>

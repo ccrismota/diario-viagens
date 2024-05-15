@@ -17,3 +17,7 @@
     flex-direction: column;
     width: 350px;
 }
+.uploader-status ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
+  stroke: #ffff00;
+  height: 5px;
+}

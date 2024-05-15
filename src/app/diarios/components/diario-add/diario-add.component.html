@@ -24,9 +24,14 @@
                 <mat-icon matPrefix>chat</mat-icon>
             </mat-form-field>
             <input (change)="setImage($event)" #imagem type="file" name="imagem" hidden />
-            <button class="btnCheck" (click)="imagem.click()" type="button" mat-raised-button color="accent">
+            <button  class="btnCheck" (click)="imagem.click()" type="button" mat-raised-button color="accent">
         <mat-icon>{{icone}}</mat-icon>
-        Imagem do diário</button
+        Imagem do diário</button>
+        <ng-template #loading>
+          <div class="uploader-status">
+            <mat-spinner diameter="45" customSpinner></mat-spinner>
+          </div>
+        </ng-template>
       ><br />
       <button mat-raised-button color="primary" [disabled]="form.invalid">
         Adicionar
