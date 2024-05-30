@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     private fb: FormBuilder,
     private authService: AuthService,
     private toast: HotToastService
-  ) { this.siteKey = '6Lf5nmQgAAAAAGBE82rwfwIllPqz90bkIuXEjzei'; }
+  ) { this.siteKey = '6Lcv9-wpAAAAAD8-nR8fvr9EqoH-9NQb81Oml0D4'; }
 
   onSubmit() {
     const { email, senha } = this.loginForm.value;
