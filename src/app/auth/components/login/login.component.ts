@@ -19,12 +19,12 @@ export class LoginComponent implements OnInit {
   hide = true;
 
 
-  siteKey: string;
+  // siteKey: string;
   constructor(
     private fb: FormBuilder,
     private authService: AuthService,
     private toast: HotToastService
-  ) { this.siteKey = '6Lcv9-wpAAAAAHn0Ur1qaZJpz3P1sZNEgFtrdRTQ'; }
+  ) { /*this.siteKey = '6Lcv9-wpAAAAAHn0Ur1qaZJpz3P1sZNEgFtrdRTQ';*/ }
 
   onSubmit() {
     const { email, senha } = this.loginForm.value;
