@@ -18,6 +18,7 @@
           [matDatepicker]="picker"
           name="data"
           [(ngModel)]="diario.data"
+          [lang]="diario.data"
         />
         <mat-datepicker-toggle matPrefix [for]="picker"></mat-datepicker-toggle>
         <mat-datepicker #picker></mat-datepicker>
@@ -49,7 +50,7 @@
         Imagem do diário</button
       ><br />
       <button mat-raised-button color="primary" [disabled]="form.invalid">
-        Adicionar
+        Atualizar
       </button>
     </div>
   </form>
